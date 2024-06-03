@@ -1,0 +1,13 @@
+#print('hello world')
+mylist1=[5,2,1,7,4]
+# sorted(mylist1)
+# print(mylist1)
+# mylist1.sort(reverse=True)
+# print(mylist1)
+mylist1.sort()
+print(mylist1)
+mylist1.append(1)
+mylist1.reverse()
+print(mylist1)
+mylist=mylist1.copy()
+print(mylist)
